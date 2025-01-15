@@ -1,0 +1,11 @@
+### Send message to Kafka
+POST http://localhost:18080/publish
+Content-Type: application/x-www-form-urlencoded
+
+message = Hello Kafka
+
+### Send another message
+POST http://localhost:18080/publish
+Content-Type: application/x-www-form-urlencoded
+
+message = Another message
